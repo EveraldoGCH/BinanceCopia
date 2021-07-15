@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 body{
-  background-color: black;
+  background-color: #0B0E11 !important;
   font-family: 'IBM Plex Sans', sans-serif;
 }
 a:visited{
@@ -13,6 +13,10 @@ header{
   height: 64px;
   width: 100%;
   background-color: #12161C;
+}
+#flexheader{
+  display: flex;
+  justify-content: space-between;
 }
 .logo{
   width: 130px;
@@ -34,11 +38,14 @@ header{
   background-image: linear-gradient(rgb(248, 209, 47) 0%, rgb(240, 185, 11) 100%);
   min-width: 52px;
   font-weight: 400;
+  position: relative;
+  top: 16px;
 }
 .Bloque1{
   padding-top: 20px;
   padding-bottom: 40px;
   width: 100%;
+  color: #0B0E11;
   
 }
 
@@ -76,10 +83,27 @@ header{
 }
 .Bloque2{
   box-sizing: border-box;
-    margin: 0;
-    min-width: 0;
-    background-color: #FFFFFF;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    border-radius: 24px 24px 0 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  min-width: 0;
+  background-color: #FFFFFF;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-radius: 24px 24px 0 0;
+}
+.Bloque2 p{
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 12px;
+  margin: 10px;
+  color: #707A8A;
+}
+.CarrouselAppCss{
+  width: 97%;
+
+}
+.CarrouselAppCss img{
+  border-radius: 24px 24px 0 0;
 }

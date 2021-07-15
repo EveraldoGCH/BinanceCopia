@@ -1,6 +1,7 @@
 import './App.css';
 import Inicio from './components/Inicio'
-import {BrowserRouter, Route} from "react-router-dom"
+import {BrowserRouter, Route} from "react-router-dom";
+
 
 function App() {
 return (
