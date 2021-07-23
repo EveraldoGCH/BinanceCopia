@@ -107,3 +107,73 @@ header{
 .CarrouselAppCss img{
   border-radius: 24px 24px 0 0;
 }
+.Bloque3Wrapper{
+background-color: white;
+padding-left: 16px;
+}
+.Bloque3Wrapper h1{
+  font-size: 24px;
+  font-weight: 500;
+  color: #1E2329;
+  overflow-x: hidden;
+}
+
+.Bloque3Wrapper p{
+  color: #474D57;
+  font-size: 14px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  overflow-x: hidden;
+}
+.Bloque3SlideWrapper{
+  display: flex;
+  flex-direction: row;
+  white-space: nowrap;
+  overflow:scroll;
+  padding-bottom: 24px;
+}
+
+.Bloque3TextSlide{
+  background-color: #F5F5F5;
+  color: #1E2329;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 8px 16px;
+  margin-right: 16px;
+  width: 100%;
+}
+
+.Bloque5{
+  background-color: white;
+  padding-left: 17px;
+}
+.Bloque5 h1{
+  font-size: 24px;
+  color: #1E2329;
+}
+.Bloque5 p{
+  color: #474D57;
+  font-size: 14px;
+  margin:16px;
+  overflow-x: hidden;
+}
+.Bloque5 img{
+  height: 400px;
+  width: 97%;
+  object-fit: contain;
+  overflow: hidden;
+}
+.B5iconsWrapper{
+
+}
+.androidIcon{
+  width: 37px !important;
+  height: 44px !important;
+}
+.bi-plug{
+  color: #0B0E11;
+  width: 37px;
+  height: 44px;
+}

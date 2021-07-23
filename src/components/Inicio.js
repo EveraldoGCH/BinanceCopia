@@ -2,7 +2,9 @@ import React from 'react'
 import Header from './Header'
 import Bloque1 from './Bloque1'
 import Bloque2 from './Bloque2'
-import Bloque3Graficos from './Bloque3Graficos'
+import Bloque3 from './Bloque3'
+
+import Bloque5 from './Bloque5'
 
 export default function Inicio() {
     return (
@@ -10,7 +12,9 @@ export default function Inicio() {
             <Header/>
             <Bloque1/>
             <Bloque2/>
-            <Bloque3Graficos/>
+            <Bloque3/>
+
+            <Bloque5/>
         </>
     )
 }
